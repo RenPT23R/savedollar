@@ -1,1 +1,1 @@
-renpt23r.github.io/savedollar
+https://renpt23r.github.io/savedollar
