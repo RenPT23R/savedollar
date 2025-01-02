@@ -1,0 +1,139 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <link rel="icon" href="icon.png" type="image/png">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            width: 98.75%;
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+            border: solid 2px #00025f;
+            border-radius: 0 0 12px 12px;
+        }
+
+        .content {
+            padding-top: 120px;
+            /* Adjust this value based on the height of your header */
+            margin: 20px;
+        }
+
+        p {
+            font-size: 1.25em;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: auto;
+            gap: 10px;
+            width: 25%;
+            height: 50%;
+        }
+
+        #save {
+            border: solid 2px #00025f;
+            border-radius: 12px;
+            color: #ffffff;
+            border: none;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            font-size: xx-large;
+            height: 100%;
+            width: 100%;
+        }
+
+        #cancel {
+            border: solid 2px #00025f;
+            border-radius: 12px;
+            color: white;
+            border: none;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            height: 100%;
+            width: 100%;
+            font-size: xx-large;
+        }
+
+        #feedback {
+            border: solid 2px #fffda0;
+            border-radius: 12px;
+            color: white;
+            border: none;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            height: 100%;
+            width: 100%;
+            font-size: xx-large;
+            background-color: antiquewhite;
+        }
+
+        .button {
+            border: solid, 2px #00025f;
+            border-radius: 12px;
+            background-color: #383838;
+            color: white;
+            border: none;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .button:hover {
+            background-color: #45a049;
+        }
+
+        #feedback:hover {
+            background-color: #0e0e0e;
+        }
+    </style>
+    <title>$ave</title>
+</head>
+
+<body>
+    <header>
+        <h1>$ave</h1>
+    </header>
+    <div class="content">
+        <h1 style="font-family: Arial, Helvetica, sans-serif;">Nevermind about the page having no ssl lock, im just broke</h1>
+        <h2>$ave</h2>
+        <p>Save your money with one click</p>
+        <div class="grid">
+            <button id="save" class="button">Games</button>
+            <button id="cancel" class="button">Clothing</button>
+            <button id="feedback" class="button">Feedback</button>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>
